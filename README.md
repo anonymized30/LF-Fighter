@@ -1,9 +1,9 @@
-# How to Defend against Label-flipping Attacks in Federated Learning
-This repository contains PyTorch implementation of the paper: How to Defend against Label-flipping Attacks in Federated Learning.
+# Defending against Label-flipping Attacks in Federated Learning
+This repository contains PyTorch implementation of the paper: Defending against Label-flipping Attacks in Federated Learning.
 
 ## Paper 
 
-[How to Defend against Label-flipping Attacks in Federated Learning]
+[Defending against Label-flipping Attacks in Federated Learning]
 
 ## Content
 The repository contains one jupyter notebook: `Experiments.IPYNB` in each folder which can be used to re-produce the experiments reported in the paper. Each notebook contains clear instructions on how to run the experiments. 
@@ -11,7 +11,7 @@ The repository contains one jupyter notebook: `Experiments.IPYNB` in each folder
 ## Data sets
 [MNIST](http://yann.lecun.com/exdb/mnist/) and [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) will be automatically downloaded.
 However, [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/) requires a manual download using this [link](https://drive.google.com/file/d/1X86CyTJW77a1CCkAFPvN6pqceN63q2Tx/view?usp=sharing). 
-After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please save it as IMDB Dataset.csv in the data folder inside the folder IMDB.
+After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please save it as imdb.csv in the data folder inside the folder IMDB.
 
 
 ## Dependencies
@@ -25,9 +25,13 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 
 ## Results
 
-<img src="results/mnist_extreme410_stability.png" width="50%"><img src="results/mnist_extreme510_stability.png" width="50%">
+### Robustness
 
-*Results of source class stability under the label-flipping attack on the MNIST-1 benchmark with 4 attackers (left), 5 attackers (right).* </br></br>
+### Accuracy stability
+
+<img src="results/mnist_extreme_stability.png" width="100%">
+
+*Results of source class stability under the label-flipping attack on the MNIST-Extreme benchmark with 30% attackers.* </br></br>
 
 
 <img src="results/mnist_stability.png" width="33%"><img src="results/cifar10_stability.png" width="33%"><img src="results/imdb_stability.png" width="33%">
