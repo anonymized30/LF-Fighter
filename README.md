@@ -31,6 +31,10 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 
 *Robustness to the label-flipping attack on the MNIST-Extreme benchmark.* </br></br>
 
+<img src="results/cifar_mild_robust.PNG" width="100%">
+
+*Robustness to the label-flipping attack on the CIFAR10-Mild benchmark.* </br></br>
+
 ### Accuracy stability
 
 <img src="results/mnist_extreme_stability.png" width="100%">
