@@ -11,7 +11,7 @@ The repository contains one jupyter notebook: `Experiments.IPYNB` in each folder
 ## Data sets
 [MNIST](http://yann.lecun.com/exdb/mnist/) and [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) will be automatically downloaded.
 However, [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/) requires a manual download using this [link](https://drive.google.com/file/d/1X86CyTJW77a1CCkAFPvN6pqceN63q2Tx/view?usp=sharing). 
-After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please save it as IMDB Dataset.csv in the folder named "data".
+After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please save it as imdb.csv in the folder named "data".
 
 
 ## Dependencies
