@@ -1,9 +1,9 @@
-# How to Defend against Label-flipping Attacks in Federated Learning
-This repository contains PyTorch implementation of the paper: How to Defend against Label-flipping Attacks in Federated Learning.
+#Defending against Label-flipping Attacks in Federated Learning
+This repository contains PyTorch implementation of the paper: Defending against Label-flipping Attacks in Federated Learning.
 
 ## Paper 
 
-[How to Defend against Label-flipping Attacks in Federated Learning]
+[Defending against Label-flipping Attacks in Federated Learning]
 
 ## Content
 The repository contains one jupyter notebook: `Experiments.IPYNB` in each folder which can be used to re-produce the experiments reported in the paper. Each notebook contains clear instructions on how to run the experiments. 
