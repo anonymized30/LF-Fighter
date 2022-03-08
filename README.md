@@ -34,7 +34,7 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 
 <img src="results/cifar10_mild_robust.PNG" width="100%">
 
-*Robustness to the label-flipping attack with the CIFAR10-Mild benchmark.* </br></br>
+<\centering> *Robustness to the label-flipping attack with the CIFAR10-Mild benchmark.* </br></br>
 
 <img src="results/imdb_robust.PNG" width="100%">
 
