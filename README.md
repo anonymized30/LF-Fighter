@@ -25,14 +25,14 @@ After downloading [IMDB](https://ai.stanford.edu/~amaas/data/sentiment/), please
 
 ## Results
 
-<img src="results/mnist_extreme410_stability.png" width="50%"><img src="results/mnist_extreme510_stability.png" width="50%">
+<img src="results/mnist_extreme_stability.png" width="50%">
 
-*Results of source class stability under the label-flipping attack on the MNIST-1 benchmark with 4 attackers (left), 5 attackers (right).* </br></br>
+*Results of source class stability under the label-flipping attack on the MNIST-Extreme benchmark with 30% attackers.* </br></br>
 
 
-<img src="results/mnist_stability.png" width="33%"><img src="results/cifar10_stability.png" width="33%"><img src="results/imdb_stability.png" width="33%">
+<img src="results/cifar10_iid_stability.png" width="33%"><img src="results/cifar10_mild_stability.png" width="33%">
 
-*Results of source class stability under the label-flipping attack with 6 attackers on the MNIST-2 benchmark (left), CIFAR10 benchmark (middle) and IMDB benchmark (right).*
+*Results of source class stability under the label-flipping attack with 30% attackers on the CIFAR10-IID benchmark (left) and CIFAR10-Mild benchmark (right).*
 </br></br>
 
 
