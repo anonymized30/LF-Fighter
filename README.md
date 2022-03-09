@@ -6,7 +6,7 @@ This repository contains PyTorch implementation of the paper: Defending against 
 [Defending against Label-flipping Attacks in Federated Learning]
 
 ## Content
-The repository contains one jupyter notebook: `Experiments.IPYNB` in each folder which can be used to re-produce the experiments reported in the paper. Each notebook contains clear instructions on how to run the experiments. 
+The repository contains one jupyter notebook for each benchmark which can be used to re-produce the experiments reported in the paper for that benchmark. The notebooks contain clear instructions on how to run the experiments. 
 
 ## Data sets
 [MNIST](http://yann.lecun.com/exdb/mnist/) and [CIFAR10](https://www.cs.toronto.edu/~kriz/cifar.html) will be automatically downloaded.
