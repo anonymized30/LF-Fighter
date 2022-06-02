@@ -83,7 +83,7 @@ class Peer():
                     target = target.view(-1,1) * (1 - attacked)
               
                 data, target = data.to(self.device), target.to(self.device)
-
+                model.zero_grad()
                 output = model(data)
                 loss = self.criterion(output, target)
                 loss.backward()    
@@ -97,8 +97,6 @@ class Peer():
                             peer_grad[i]+= params.grad.clone()   
                 t+= time.time() - cur_time    
                 optimizer.step()
-                model.zero_grad()
-                optimizer.zero_grad()
                 epoch_loss.append(loss.item())
             # print('Train epoch: {} \tLoss: {:.6f}'.format((epochs+1), np.mean(epoch_loss)))
             epochs_loss.append(np.mean(epoch_loss))
